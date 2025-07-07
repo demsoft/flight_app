@@ -29,7 +29,6 @@ class _FlightResultsPageState extends ConsumerState<FlightResultsPage> {
 
   @override
   Widget build(BuildContext context) {
-    print("🔁 FlightResultsPage build triggered...");
     final flightsAsync = ref.watch(
       searchFlightsProvider(
         FlightSearchParams(from: widget.from, to: widget.to, date: widget.date),
@@ -39,11 +38,13 @@ class _FlightResultsPageState extends ConsumerState<FlightResultsPage> {
     final formattedDate = DateFormat('EEE, dd MMM').format(widget.date);
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
           "Flights",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
+        backgroundColor: Colors.white,
         centerTitle: true,
         leading: const BackButton(),
       ),
@@ -102,6 +103,7 @@ class _FlightResultsPageState extends ConsumerState<FlightResultsPage> {
                               ),
                             ),
                         child: Card(
+                          color: Colors.white,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(16),
                           ),

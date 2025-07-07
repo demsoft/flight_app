@@ -25,7 +25,9 @@ class _SearchFlightsPageState extends ConsumerState<SearchFlightsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         title: const Text(
           'Search Flights',
           style: TextStyle(fontWeight: FontWeight.bold),
@@ -130,6 +132,7 @@ class _SearchFlightsPageState extends ConsumerState<SearchFlightsPage> {
     Function(String?) onChanged,
   ) {
     return DropdownButtonFormField<String>(
+      dropdownColor: Colors.white,
       value: value,
       hint: Text(hint),
       validator: (val) => val == null ? 'Please select $hint' : null,

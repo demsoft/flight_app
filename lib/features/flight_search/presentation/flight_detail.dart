@@ -10,6 +10,7 @@ class FlightDetailsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         title: const Text(
           "Flight Details",
           style: TextStyle(fontWeight: FontWeight.bold),

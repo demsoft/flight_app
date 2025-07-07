@@ -97,7 +97,7 @@ build/app/outputs/flutter-apk/app-release.apk
 
 | Search Page | Flight Results |
 |-------------|----------------|
-| ![Search](screenshots/screen3.png) | ![Results](screenshots/screen1.png) |
+| ![Search](screenshots/screen1.png) | ![Results](screenshots/screen2.png) |
 
 ## 📝 Developer
 
