@@ -2,8 +2,6 @@
 
 A modern and visually appealing Flutter app for searching and viewing available flight options between cities. It includes a smooth search experience, real-time filtering, and beautifully designed flight cards.
 
-![Banner](screenshots/screen3.png)
-
 ## 🚀 Features
 
 - 🔍 Search for flights by departure and arrival cities
@@ -99,7 +97,7 @@ build/app/outputs/flutter-apk/app-release.apk
 
 | Search Page | Flight Results |
 |-------------|----------------|
-| ![Search](screenshots/screen1.png) | ![Results](screenshots/screen2.png) |
+| ![Search](screenshots/screen3.png) | ![Results](screenshots/screen1.png) |
 
 ## 📝 Developer
 
