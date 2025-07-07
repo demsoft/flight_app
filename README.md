@@ -2,7 +2,7 @@
 
 A modern and visually appealing Flutter app for searching and viewing available flight options between cities. It includes a smooth search experience, real-time filtering, and beautifully designed flight cards.
 
-![Banner](assets/images/banner1.png)
+![Banner](screenshots/screen3.png)
 
 ## 🚀 Features
 
@@ -20,8 +20,9 @@ lib/
 ├── features/
 │   └── flight_search/
 │       ├── presentation/
-│       │   ├── search_flights_page.dart
-│       │   └── flight_results_page.dart
+│       │   ├── search_form.dart
+│       │   └── results_page.dart
+|       |   |-- workthrough.dart
 │       └── provider/
 │           └── flight_results_provider.dart
 assets/
@@ -65,34 +66,44 @@ The app uses a local `mock_flights.json` file structured as follows:
 
 ```json
 [
-  {
-    "airline": "Alaska Airlines",
+   {
+    "airline": "Nigerian Airlines",
+    "flightNumber": "AS320",
+    "aircraft": "Boeing 737",
+    "duration": "6h 0m",
+    "stops": "1 Stop",
+    "checkedBag": "23kg",
+    "carryonBag": "7kg",
+    "entertainment": "Yes",
+    "meals": "Included",
+    "price": "$220",
+    "class": "Economy",
+    "fromTime": "1:00 PM",
+    "toTime": "4:00 PM",
+    "logo": "assets/images/banner3.jpeg",
+    "map" : "assets/images/mapp.png",
     "from": "Lagos",
-    "to": "London",
-    "date": "2025-07-10",
-    "price": "$320",
-    "class": "Economy"
+    "to": "Abuja",
+    "date": "2025-07-10"
   }
 ]
 ```
 
-> Ensure that the dates in `mock_flights.json` match the test dates used in the UI to see results.
-
-## 🧠 Notes
-
-- If no results are shown, verify the `mock_flights.json` file has flights matching your selected route and date.
-- You can expand this app to fetch real-time flight data from an external API.
+## 📦 APK Location
+The built APK can be found at:
+```
+build/app/outputs/flutter-apk/app-release.apk
+```
 
 ## 🖼 Screenshots
 
 | Search Page | Flight Results |
 |-------------|----------------|
-| ![Search](assets/images/search_ui.png) | ![Results](assets/images/results_ui.png) |
+| ![Search](screenshots/screen1.png) | ![Results](screenshots/screen2.png) |
 
-## 👨‍💻 Author
+## 📝 Developer
 
-Built with ❤️ by [Your Name]
-
+**Etim Essang**  
+Flutter Developer | [LinkedIn](https://www.linkedin.com/in/etim-essang-6bb637a7/) | [GitHub](https://github.com/demsoft)
 ## 📄 License
-
-This project is licensed under the MIT License.
+MIT
