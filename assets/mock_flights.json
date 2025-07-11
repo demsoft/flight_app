@@ -17,7 +17,7 @@
     "map" : "assets/images/mapp.png",
     "from": "Lagos",
     "to": "London",
-    "date": "2025-07-10"
+    "date": "2025-08-10"
   },
    {
     "airline": "Nigerian Airlines",
@@ -37,7 +37,7 @@
     "map" : "assets/images/mapp.png",
     "from": "Lagos",
     "to": "Abuja",
-    "date": "2025-07-10"
+    "date": "2025-08-10"
   },
   {
     "airline": "IbomAir Airlines",
@@ -57,7 +57,7 @@
     "map" : "assets/images/mapp.png",
     "from": "Lagos",
     "to": "London",
-    "date": "2025-07-10"
+    "date": "2025-08-10"
   },
     {
     "airline": "Indian Airlines",
@@ -77,6 +77,6 @@
     "map" : "assets/images/mapp.png",
     "from": "Lagos",
     "to": "New York",
-    "date": "2025-07-10"
+    "date": "2025-08-10"
   }
 ]
